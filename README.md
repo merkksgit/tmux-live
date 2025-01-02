@@ -95,6 +95,10 @@ The script looks for directories in these paths by default:
 
 To change these paths, modify the `find` command in the script.
 
+## Credits
+
+This script is heavily influenced by tmux-sessionizer, a script by [ThePrimeagen](https://github.com/ThePrimeagen/). The project adapts his session management approach while adding live-server functionality for web development.
+
 ## License
 
 This project is licensed under the [MIT License](https://mit-license.org/)
