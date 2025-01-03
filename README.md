@@ -109,6 +109,10 @@ The script looks for directories in these paths by default:
 
 To change these paths, modify the `find` command in the script.
 
+```bash
+selected="$(find ~/school ~/github_repositories/ ~/projects -mindepth 1 -maxdepth 1 -type d | fzf-tmux -p 50% --header='Open live server:')"
+```
+
 ## Credits
 
 This script is heavily influenced by tmux-sessionizer, a script by [ThePrimeagen](https://github.com/ThePrimeagen/). The project adapts his session management approach while adding live-server functionality for web development.
