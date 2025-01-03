@@ -2,6 +2,20 @@
 
 A Bash script that creates a new tmux session and starts a live server in the selected directory. Perfect for web development workflows.
 
+<!-- vim-markdown-toc GFM -->
+
+* [Features](#features)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+* [Tmux Key Binding Setup](#tmux-key-binding-setup)
+* [Usage](#usage)
+* [How It Works](#how-it-works)
+* [Configuration](#configuration)
+* [Credits](#credits)
+* [License](#license)
+
+<!-- vim-markdown-toc -->
+
 ## Features
 
 - Creates a new tmux session with live-server running
@@ -34,7 +48,7 @@ chmod +x tmux-live.sh
 mv tmux-live.sh ~/.local/scripts/tmux-live.sh
 ```
 
-### Tmux Key Binding Setup
+## Tmux Key Binding Setup
 
 Add this line to your `~/.tmux.conf` (replace `ä` with desired keybind):
 
