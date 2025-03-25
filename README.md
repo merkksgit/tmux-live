@@ -16,7 +16,6 @@ A Bash script that creates a new tmux session and starts a live server in the se
 * [How It Works](#how-it-works)
 * [Configuration](#configuration)
 * [Credits](#credits)
-* [License](#license)
 
 <!-- vim-markdown-toc -->
 
@@ -120,7 +119,3 @@ selected="$(find ~/school ~/github_repositories/ ~/projects -mindepth 1 -maxdept
 ## Credits
 
 This script is heavily influenced by tmux-sessionizer, a script by [ThePrimeagen](https://github.com/ThePrimeagen/). The project adapts his session management approach while adding live-server functionality for web development.
-
-## License
-
-This project is licensed under the [MIT License](https://mit-license.org/)
