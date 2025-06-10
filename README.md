@@ -3,6 +3,7 @@
 [![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)](#)
 [![tmux](https://img.shields.io/badge/tmux-1BB91F?logo=tmux&logoColor=fff)](#)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff)](#)
+
 A Bash script that creates a new tmux session and starts a live server in the selected directory. Perfect for web development workflows.
 
 <!-- vim-markdown-toc GFM -->
